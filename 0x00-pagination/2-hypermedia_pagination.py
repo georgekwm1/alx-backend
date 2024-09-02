@@ -44,6 +44,7 @@ class Server:
             return []
 
     def get_hyper(self, page: int = 1, page_size: int = 10) -> List[List]:
+        """returns a dictionary"""
         total_page_len = len(self.dataset())
         page_size2 = page_size if (
             page * page_size) <= len(self.dataset()) else 0
