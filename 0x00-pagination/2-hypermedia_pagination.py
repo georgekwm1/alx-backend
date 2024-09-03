@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+
+"""Defines a class that paginates"""
+
+
 import csv
 import math
 from typing import List
