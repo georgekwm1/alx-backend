@@ -7,6 +7,8 @@ class FIFOCache(BaseCaching):
     """BasicCache class"""
 
     def __init__(self):
+        """Initializes the cache.
+        """
         super().__init__()
 
     def put(self, key, item):
