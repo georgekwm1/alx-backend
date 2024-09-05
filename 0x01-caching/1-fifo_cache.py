@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """BasicCache module"""
-from BaseCaching import BaseCaching
+from base_caching import BaseCaching
 from collections import OrderedDict
 
 
